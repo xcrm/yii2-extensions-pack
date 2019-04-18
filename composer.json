@@ -1,0 +1,28 @@
+{
+    "name": "xcrm/yii2-extensions-pack",
+    "description": "YII2 extensions",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "~2.0.15.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Volkov",
+            "email": "webwizardry@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "xcrm\\middleware\\": "src"
+        }
+    }
+
+}
